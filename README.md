@@ -51,6 +51,7 @@ public:
 
 Then you import a md5wrapper for C++ kind of your own choice
 Then here is a basic check
+
 ```cpp
 	networking* server{ 0 };
 	string response = server->DownloadString("http://mywebsite.com/api.php?check&token=" + license + "&hash=" + hwid);
@@ -60,7 +61,9 @@ Then here is a basic check
 	}
 ```
 
+
 # Get HWID
+
 Are you having issues getting the HWID here is how i do it :)
 
 ```cpp
@@ -108,10 +111,17 @@ std::string get_hwid() {
 }
 ```
 
+
+
 # IMPORTANT
+
 Do keep in mind Auth.GG is insecure to MITM attacks so i would personally recommend Tenet Solutions
+
 You can join their discord here [Tenet](https://discord.gg/AVz8umV)
 
+
+
 # Credits
+
 @Akex64 Making api wrapper
 @Outbuilt Made auth.gg
