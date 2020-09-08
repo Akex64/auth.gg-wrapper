@@ -124,4 +124,5 @@ You can join their discord here [Tenet](https://discord.gg/AVz8umV)
 # Credits
 
 @Akex64 Making api wrapper
+
 @Outbuilt Made auth.gg
