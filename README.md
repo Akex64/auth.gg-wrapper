@@ -7,7 +7,7 @@ To contact their server we are using their api.
 # Use
 
 First you got to make a networking object (i didn't  make get request found on uc)
-```
+```cpp
 class networking
 {
 public:
@@ -47,7 +47,4 @@ public:
 	}
 
 };
-
-
-
 ```
