@@ -8,12 +8,12 @@ $apikey = "YOURAPIKEY";
 $salt = "YOURCUSTOMSALT";
 
 function hash_($string){
-	return sha1($string.$salt);
+	return md5($string.$salt);
 }
 
 if(isset($_GET["e"])){
 	if(isset($_GET["a"])){
-		echo sha1($_GET["a"].$salt);
+		echo md5($_GET["a"].$salt);
 		exit;
 	}
 }
